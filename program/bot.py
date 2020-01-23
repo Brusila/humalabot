@@ -1,8 +1,10 @@
 from telegram.ext import Updater, CommandHandler
-import logging
+from uuid import uuid4
+
 from program.person import Person
 from program.drinks import drink_dict
-from uuid import uuid4
+
+import logging
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',

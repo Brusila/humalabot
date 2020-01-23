@@ -128,5 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Idea
+.idea/
+
 # Bot's token
 token.txt
